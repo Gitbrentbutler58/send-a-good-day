@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#faf6f0"/>
+  <g transform="translate(60,165)">
+    <rect width="300" height="300" fill="#faf6f0"/>
+    <g stroke="#c98a3c" stroke-width="8" stroke-linecap="round">
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(0 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(45 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(90 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(135 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(180 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(225 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(270 150 150)"/>
+      <line x1="150" y1="150" x2="150" y2="82" transform="rotate(315 150 150)"/>
+    </g>
+    <circle cx="150" cy="150" r="42" fill="#e0a458"/>
+    <circle cx="136" cy="142" r="3" fill="#2b1d14"/>
+    <circle cx="164" cy="142" r="3" fill="#2b1d14"/>
+    <path d="M133,163 q17,14 34,0" fill="none" stroke="#2b1d14" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="700" y="270" font-family="Georgia, 'Times New Roman', serif" font-weight="600" font-size="56" fill="#2b1d14">You've got a</text>
+  <text x="700" y="335" font-family="Georgia, 'Times New Roman', serif" font-weight="600" font-size="56" fill="#2b1d14">good day waiting</text>
+  <text x="700" y="335" font-family="Georgia, serif" font-size="56">&#9728;</text>
+  <text x="700" y="400" font-family="system-ui, sans-serif" font-size="26" fill="#7a6a5c">Tap to open it.</text>
+  <text x="700" y="560" font-family="system-ui, sans-serif" font-weight="600" font-size="24" fill="#6f4e37">sendagoodday.com  ·  Good Day Coffee</text>
+</svg>

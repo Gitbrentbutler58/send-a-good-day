@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You've got a good day waiting ☀</title>
+<meta name="description" content="Someone sent you a little kindness. Tap to open it.">
+<meta property="og:title" content="You've got a good day waiting ☀">
+<meta property="og:description" content="Someone sent you a little kindness. Tap to open it.">
+<meta property="og:image" content="../og/north-star.svg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-design="north-star">
+
+<header class="site-header">
+  <a class="logo" href="../">Send a Good Day ☀</a>
+</header>
+
+<main class="recipient-wrap">
+
+  <div class="seal-stage" id="seal-stage">
+    <button type="button" class="seal-card-btn" id="seal-btn" aria-label="Open your good day">
+      <div class="seal-icon" aria-hidden="true">☀</div>
+      <h1>Someone sent you a good day.</h1>
+      <p class="btn btn-primary" style="display:inline-flex;margin-top:8px;">Open it ☀</p>
+    </button>
+  </div>
+
+  <div class="reveal-stage" id="reveal-stage" hidden>
+    <div class="card-frame">
+      <div class="card-art" id="card-art"></div>
+      <div class="card-body">
+        <h1 class="card-message display" id="card-message" tabindex="-1"></h1>
+        <p class="card-names" id="card-names"></p>
+      </div>
+    </div>
+
+    <p class="attribution">
+      Sent free via <strong>Send a Good Day</strong> — a little kindness project by
+      <strong><a href="#" id="footer-shop-link">Good Day Coffee</a></strong>, a woman-owned,
+      small-batch coffee roaster in St. Louis Park, Minnesota that gives back with every bag.
+    </p>
+
+    <div class="gift-block">
+      <h2>Keep the good going ☕</h2>
+      <p>Here's 10% off your first bag of small-batch coffee — code
+        <span class="code" id="gift-code">GOTAGOODDAY</span>, or tap and it's applied for you.</p>
+      <a class="btn btn-primary" id="gift-shop-link" href="#">Treat yourself →</a>
+    </div>
+
+    <div class="loop-block">
+      <a class="btn btn-outline" id="loop-link" href="../">Send someone a good day →</a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <p class="tagline">A free kindness project by Good Day Coffee — woman-owned,
+    small-batch, Twin Cities roasted.</p>
+  <div class="foot-links">
+    <a href="#" id="footer-standing-order-link">Office manager? Put good coffee in your break room →</a>
+  </div>
+  <div class="foot-links">
+    <a href="../about.html">About this project</a>
+  </div>
+</footer>
+
+<script src="../js/data.js"></script>
+<script src="../js/card.js"></script>
+</body>
+</html>

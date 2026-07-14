@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Send a Good Day</title>
+<meta name="description" content="A free kindness project by Good Day Coffee, a woman-owned small-batch roaster in St. Louis Park, Minnesota.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="./">Send a Good Day ☀</a>
+</header>
+
+<main class="wrap about-copy">
+  <h1>About this project</h1>
+  <p>We believe a good day is something you can give someone. Not a big gesture —
+    just a name, a warm message, and thirty seconds. So we built a free way to send
+    one: pick a moment, pick a message, and send it to someone who could use it today.</p>
+
+  <p>Send a Good Day is made by <strong>Good Day Coffee</strong>, a woman-owned,
+    small-batch coffee roaster in St. Louis Park, Minnesota. We roast coffee that
+    does a little good every day — 100% of proceeds from our North Star Blend
+    support local causes we believe in. This project is another way of doing that:
+    no purchase required, just a little kindness passed along.</p>
+
+  <p>If a card led you here and you'd like to try the coffee, there's 10% off
+    waiting for you. And if you'd like to send your own good day, it takes about
+    thirty seconds.</p>
+
+  <p style="text-align:center; margin-top: 32px;">
+    <a class="btn btn-primary" href="./">Send a good day →</a>
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p class="tagline">A free kindness project by Good Day Coffee — woman-owned,
+    small-batch, Twin Cities roasted.</p>
+  <div class="foot-links">
+    <a id="footer-shop-link" href="#">Shop coffee</a>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script>
+  document.getElementById('footer-shop-link').href = CONFIG.linkUrl(CONFIG.shopBase, 'about');
+</script>
+</body>
+</html>

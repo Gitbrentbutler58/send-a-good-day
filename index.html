@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Send a Good Day — free 30-second kindness cards</title>
+<meta name="description" content="Pick a message, add a name, make someone's day. Free, from Good Day Coffee in Minnesota.">
+<meta property="og:title" content="Send a Good Day — free 30-second kindness cards">
+<meta property="og:description" content="Pick a message, add a name, make someone's day. Free, from Good Day Coffee in Minnesota.">
+<meta property="og:image" content="og/sunshine.svg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="./">Send a Good Day ☀</a>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>Send someone a good day.</h1>
+    <p>Free. Thirty seconds. Guaranteed to land. A little kindness project from
+      Good Day Coffee in St. Louis Park, Minnesota.</p>
+  </section>
+
+  <form id="creator-form">
+    <fieldset>
+      <legend><span class="step-num">1</span>Pick a moment</legend>
+      <div class="chip-row" id="category-chips" role="radiogroup" aria-label="Card category"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend><span class="step-num">2</span>Pick a message</legend>
+      <div class="option-grid" id="message-options" role="radiogroup" aria-label="Card message"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend><span class="step-num">3</span>Pick a design &amp; add names <span style="font-weight:400;color:var(--taupe);font-size:0.85rem;">(optional)</span></legend>
+      <div class="design-grid" id="design-swatches" role="radiogroup" aria-label="Card design"></div>
+
+      <div class="name-fields" style="margin-top:20px;">
+        <div class="field">
+          <label for="to-name">To</label>
+          <input type="text" id="to-name" maxlength="24" autocomplete="off" placeholder="Sam">
+          <div class="field-hint" id="to-hint" aria-live="polite"></div>
+        </div>
+        <div class="field">
+          <label for="from-name">From</label>
+          <input type="text" id="from-name" maxlength="24" autocomplete="off" placeholder="Alex">
+          <div class="field-hint" id="from-hint" aria-live="polite"></div>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="preview-section">
+      <p class="preview-label">Your card</p>
+      <div class="card-frame" id="live-preview">
+        <div class="card-art" id="preview-art"></div>
+        <div class="card-body">
+          <p class="card-message display" id="preview-message"></p>
+          <p class="card-names" id="preview-names"></p>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block" id="get-card-btn">Get your card</button>
+  </form>
+
+  <section class="share-panel" id="share-panel" hidden>
+    <h2>Your good day is on its way ☀</h2>
+    <p>Copy the link, share it, or download the card as an image.</p>
+    <div class="share-actions">
+      <button type="button" class="btn btn-primary" id="copy-link-btn">Copy link</button>
+      <button type="button" class="btn btn-outline" id="native-share-btn" hidden>Share</button>
+      <button type="button" class="btn btn-outline" id="download-btn">Download image</button>
+    </div>
+    <p class="share-status" id="share-status" aria-live="polite"></p>
+
+    <div class="treat-block">
+      <p>Spreading kindness deserves a treat — here's 10% off at Good Day Coffee:</p>
+      <span class="code" id="sender-code">SENTAGOODDAY</span>
+      <br>
+      <a class="btn btn-outline" id="sender-shop-link" href="#">Treat yourself →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p class="tagline">A free kindness project by Good Day Coffee — woman-owned,
+    small-batch, Twin Cities roasted.</p>
+  <div class="foot-links">
+    <a id="footer-shop-link" href="#">Shop coffee</a>
+    <a id="footer-standing-order-link" href="#">For your office</a>
+    <a href="about.html">About this project</a>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/share.js"></script>
+<script src="js/create.js"></script>
+</body>
+</html>

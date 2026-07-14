@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#faf6f0"/>
+  <g transform="translate(60,165)">
+    <rect width="300" height="300" fill="#f0dcc0"/>
+    <path d="M128,60 C120,85 112,100 112,120 A38,38 0 1 0 188,120 C188,100 180,85 172,60 Z" fill="#6f4e37"/>
+    <ellipse cx="150" cy="120" rx="32" ry="8" fill="#fffdf9"/>
+    <path d="M197,108 q21,0 21,19 q0,19 -21,19" fill="none" stroke="#6f4e37" stroke-width="8"/>
+    <path d="M139,45 q-8,-16 0,-28" fill="none" stroke="#7a6a5c" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M150,42 q-8,-18 0,-32" fill="none" stroke="#7a6a5c" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M161,45 q-8,-16 0,-28" fill="none" stroke="#7a6a5c" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="700" y="270" font-family="Georgia, 'Times New Roman', serif" font-weight="600" font-size="56" fill="#2b1d14">You've got a</text>
+  <text x="700" y="335" font-family="Georgia, 'Times New Roman', serif" font-weight="600" font-size="56" fill="#2b1d14">good day waiting</text>
+  <text x="700" y="335" font-family="Georgia, serif" font-size="56">&#9728;</text>
+  <text x="700" y="400" font-family="system-ui, sans-serif" font-size="26" fill="#7a6a5c">Tap to open it.</text>
+  <text x="700" y="560" font-family="system-ui, sans-serif" font-weight="600" font-size="24" fill="#6f4e37">sendagoodday.com  ·  Good Day Coffee</text>
+</svg>
