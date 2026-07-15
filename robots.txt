@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sendagoodday.com/sitemap.xml
+Sitemap: https://gitbrentbutler58.github.io/send-a-good-day/sitemap.xml

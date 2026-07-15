@@ -50,7 +50,7 @@
 
     ctx.font = '28px system-ui, sans-serif';
     ctx.fillStyle = '#7a6a5c';
-    ctx.fillText('sendagoodday.com  ·  Good Day Coffee', 540, 1290);
+    ctx.fillText('Send a Good Day  ·  by Good Day Coffee', 540, 1290);
 
     return new Promise(resolve => {
       c.toBlob(blob => {
